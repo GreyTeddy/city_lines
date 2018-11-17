@@ -3,6 +3,10 @@ A city-line like drawing made with p5.js
 
 Periodicaly a background is drawn and then squares are drawn in order to represent buildings.
 
+Future Features
+- Add Buttons to change properties
+  - Ability to change colours
+  - Ability to change size of squares
 
 1.1
 - Change the resolution of the image from 1920x1080 to the size of the window.
