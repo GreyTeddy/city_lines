@@ -1,5 +1,5 @@
 /*
-Skylines code
+City_Lines
 
 each cube will be 10 by 10
 
@@ -12,16 +12,22 @@ var colours = {
     fill2: [0,0,255]
 }
 
-
 var row;
 
+function setup(){
+	//create the canvas
+	createCanvas(window.innerWidth-4,window.innerHeight-4);
+	//background
+	background(colours.background[0]);
+}
+
 function draw(){
-    //if statement to refresh the page every 1/3 of a second I believe... not sure
-    if (frameCount/30 == parseInt(frameCount/30)){
+    //if statement to refresh the page every second
+    if (frameCount/60 == parseInt(frameCount/60)){
 		//declare the row list
 		row = [];
 		//create a canvas in the size of the window
-		createCanvas(window.innerWidth-5,window.innerHeight-5);
+		createCanvas(window.innerWidth-4,window.innerHeight-4);
 		
 		//clear the image
         background(colours.background[0]);
