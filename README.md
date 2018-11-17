@@ -5,7 +5,9 @@ Periodicaly a background is drawn and then squares are drawn in order to represe
 
 
 1.1
+
 -Change the resolution of the image from 1920x1080 to the size of the window.
+
 -Added some more comments.
 
 -Declare the row list outside of the draw() function.
