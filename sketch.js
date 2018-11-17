@@ -42,14 +42,14 @@ function draw(){
             for(x=0;x<row.length*10;x+=10){
                 //console.log(x/10)
                 if (parseInt(random(0,3)) == 1){
-                    fill(0,100,255)
+                    fill(0,100,255);
                 }
                 else{
-                    fill(0,0,255)
+                    fill(0,0,255);
                 }
 				//the of putting a block is 1 to 31 or 30
                 if (row[x/10]==0 && parseInt(random(0,30))==1){
-                    row[x/10]+=1
+                    row[x/10]+=1;
                 }
                 else if (row[x/10]==1){
                     rect(x,y,10,10);
