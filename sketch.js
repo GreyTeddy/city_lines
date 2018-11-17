@@ -1,8 +1,5 @@
 /*
 City_Lines
-
-each cube will be 10 by 10
-
 */ 
 
 //object that stores the colo(u)rs used
@@ -60,3 +57,7 @@ function draw(){
     }
     
 }
+
+/*
+GreyTeddy
+*/
