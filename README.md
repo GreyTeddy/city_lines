@@ -8,6 +8,12 @@ Future Features
   - Ability to change colours
   - Ability to change size of squares
 
+
+1.1.1
+- When the site loads a grey background is shown instead of a white one.
+- Change the city line every second from every 1/2 a second.
+- Tidied up some stuff.
+
 1.1
 - Change the resolution of the image from 1920x1080 to the size of the window.
 - Added some more comments.
