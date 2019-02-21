@@ -4,9 +4,7 @@ City_Lines
 
 //object that stores the colo(u)rs used
 var colours = {
-    background: [100,10,255],
-    fill1: [0,100,255],
-    fill2: [0,0,255]
+    background: [50]
 }
 
 var row;
@@ -39,10 +37,10 @@ function draw(){
             for(x=0;x<row.length*10;x+=10){
                 //console.log(x/10)
                 if (parseInt(random(0,3)) == 1){
-                    fill(0,100,255);
+                    fill(0,random(0,100),random(255));
                 }
                 else{
-                    fill(0,0,255);
+                    fill(0,0,random(100,255));
                 }
 				//the of putting a block is 1 to 31 or 30
                 if (row[x/10]==0 && parseInt(random(0,30))==1){
